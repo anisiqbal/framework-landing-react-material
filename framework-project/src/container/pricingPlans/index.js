@@ -82,7 +82,7 @@ function pricingPlans() {
 
                     <Typography variant="heading">{value.heading}</Typography>
 
-                    {value.points.map((point, j) => {
+                    { value.points.map((point, j) => {
                       return (
                         <Grid item xs={12} md={12} key={j}>
                             <span><CheckIcon /></span>
